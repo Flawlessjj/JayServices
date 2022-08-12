@@ -53,10 +53,7 @@
     display: block;
     overflow: hidden;
   }
-  #splashwrite{
-    
-    background: rgba(64, 58, 58, 0.08);
-}
+ 
 #opentop{
   font-family: 'Source Sans Pro' !important;
   font-style: normal;
@@ -107,6 +104,28 @@ border: none;
     #img{
       height: 460px;
     }
+    #splashwrite{
+  
+      position: relative;
+      top: -370px;
+      margin-left: 40px;
+      
+  }
+  #opentop{
+    font-size: 10vh;
+    color: #FFFFFF;
+  }
+  #opensub{
+    width: 80vw;
+    color: #FFFFFF;
+  }
+  
+  button{
+  text-align: center;
+  border: none;
+  }
+ 
+    
   }
   @media only screen and (min-width: 769px) {
     #img{
@@ -131,4 +150,12 @@ border: none;
       top: 210px;
       align-content: center;
     }
+    #stext{
+  
+      width: 25vw;
+  }
+  #splashwrite{
+  
+    background: rgba(64, 58, 58, 0.08);
+}
   }
