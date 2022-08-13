@@ -57,7 +57,7 @@
 #opentop{
   font-family: 'Source Sans Pro' !important;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 60px;
   line-height: 64px;
 
@@ -66,7 +66,7 @@
 #opensub{
   font-family: 'Source Sans 3';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 15px;
   line-height: 21px;
 }
@@ -92,9 +92,133 @@ border: none;
   background: #E09F3E;
 }
   
+.services{
+  position: relative;
+  top: -257px;
+  background: linear-gradient(180deg, rgba(64, 58, 58, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
   
+ 
+}
+.eclipsedesign{
+  background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #E09F3E 360deg);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+.eclipsedesign #kiosk{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  top: 34px;
+  left: 34px;
+  background: url("../images/icons/icons8-kiosk-on-wheels-50.png");
+}
+.eclipsedesign #service{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  top: 34px;
+  left: 34px;
+  background: url("../images/icons/icons8-car-service-50.png");
+
+}
+.eclipsedesign #wheel{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  top: 34px;
+  left: 34px;
+  background: url("../images/icons/icons8-wheel-50.png");
+
+}
+.eclipsedesign #motor{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  top: 34px;
+  left: 34px;
+  background: url("../images/icons/icons8-motor-vehicle-50.png");
+}
+
+.recentprojects{
+  position: relative;
+  width: 100vw;
+  height: 1020px;
+  left: 0px;
+  top: 320px;
+}
+#projecttitle{
+  position: absolute;
+width: 573px;
+height: 45px;
+padding-left: 50px;
+top: 68px;
+
+font-family: 'Source Sans 3';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 107.2%;
+}
+#projsubtitle{
+  position: absolute;
+  width: 644px;
+  height: 98px;
+  padding-left: 50px;
+  top: 163px;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style:normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 136.2%;
+  color: #000000;
+}
+#projsubtext{
+  position: absolute;
+  width: 640px;
+  height: 127px;
+  padding-left: 50px;
+  top: 276px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 107.2%;
+  /* or 26px */
+
+
+  color: #000000;
+}
+.color{
+  color: #E09F3E;
+}
+#proj1{
+  position: absolute;
+  width: 435px;
+  height: 426px;
+  left: 881px;
+  top: 68px;
   
+  background: url(../images/roland-denes-EWf48MRVUNE-unsplash.jpg);
+  background-size:cover;
   
+  background-position: center;
+}
+#proj2{
+  position: absolute;
+  
+  background: url(../images/joey-banks-XUH3OSkdj4Y-unsplash.jpg);
+  background-size:cover;
+  background-position: center;
+}
+
   
   
   
@@ -103,28 +227,147 @@ border: none;
   @media only screen and (max-width: 768px) {
     #img{
       height: 460px;
+      width: 100vw;
     }
     #splashwrite{
   
       position: relative;
       top: -370px;
-      margin-left: 40px;
-      
+     }
+     #stext{
+      position: relative;
+      width: 100vw;
+      height: 271px;
   }
   #opentop{
     font-size: 10vh;
     color: #FFFFFF;
+    padding-left: 40px;
+    width: 80vw;
   }
   #opensub{
     width: 80vw;
     color: #FFFFFF;
+    padding-left: 40px;
   }
   
-  button{
-  text-align: center;
-  border: none;
+  #openbutton{
+    padding-left: 40px;
   }
  
+  #service1{
+    position: relative;
+    width: 80vw;
+    height: 250px;
+    left: 105.18px;
+    top: 100px;
+    background: #D9D9D9;
+    z-index: 9;
+    
+}
+#service2{
+  position: relative;
+  width: 80vw;
+  height: 250px;
+  left: 40.18px;
+  top: 250px;
+  background: #D9D9D9;
+  z-index: 9;
+  
+}
+#service3{
+  position: relative;
+  width: 80vw;
+  height: 250px;
+  left: 105.18px;
+  top: 400px;
+  background: #D9D9D9;
+  z-index: 9;
+  
+}
+#service4{
+  position: relative;
+  width: 80vw;
+  height: 250px;
+  left: 40.18px;
+  top: 550px;
+  background: #D9D9D9;
+  z-index: 9;
+
+}
+#eclipse1{
+  position: absolute;
+  left: -60px;
+  top: 35px;
+  
+}
+#eclipse2{
+  position: absolute;
+  right: -60px;
+  top: 35px;
+  
+}
+#eclipse3{
+  position: absolute;
+  left: -60px;
+  top: 35px;
+  
+}
+#eclipse4{
+  position: absolute;
+  right: -60px;
+  top: 35px;
+  
+}
+#projecttitle{
+  position: relative;
+width: 100vw;
+height: 45px;
+padding-left: 35px;
+top: 115px;
+color: #FFFFFF;
+}
+#projsubtitle{
+  position: relative;
+  width: 100vw;
+  height: 98px;
+  padding-left: 35px;
+  top: 120px;
+  color: #FFFFFF;
+}
+#projsubtext{
+  position: relative;
+  width: 100vw;
+  height: 127px;
+  padding-left: 35px;
+  top: 126px;
+  color: #FFFFFF;
+}
+#proj1{
+  position: relative;
+  width: 47vw;
+  height: 45vh;
+  left: 0px;
+  top: 260px;
+}
+#proj2{
+  position: relative;
+  width: 47vw;
+  height: 315.89px;
+  left: 4vw;
+  top: -54px;
+  float: right;
+}
+#proj3{
+  position: absolute;
+  width: 100vw;
+  height: 485px;
+  
+  top: 54px;
+  background: url(../images/damian-ochrymowicz-6IKzGvVcICI-unsplash.jpg);
+  background-size:cover;
+  background-position: center;
+}
     
   }
   @media only screen and (min-width: 769px) {
@@ -132,30 +375,62 @@ border: none;
       height: 700px;
     }
     #opentop{
-      width: 340px;
+      width: 25vw;
       position: relative;
-      left: 50px;
+      left: 30px;
       top: 165px;
     }
     #opensub{
-      width: 332px;
+      width: 30vw;
       position: relative;
-      left: 50px;
+      left: 30px;
       top: 190px;
       
     }
     #openbutton{
       position: relative;
-      left: 50px;
+      left: 30px;
       top: 210px;
       align-content: center;
     }
     #stext{
   
-      width: 25vw;
+      width: 100%;
   }
   #splashwrite{
+    width: 33.33vw;
+    background: rgba(64, 58, 58, 0.08);
+}
+  }
+  @media only screen and (min-width: 960px) {
+    #img{
+      height: 700px;
+    }
+    #opentop{
+      width: 25vw;
+      position: relative;
+      left: 30px;
+      top: 165px;
+    }
+    #opensub{
+      width: 25vw;
+      position: relative;
+      left: 30px;
+      top: 190px;
+      
+    }
+    #openbutton{
+      position: relative;
+      left: 30px;
+      top: 210px;
+      align-content: center;
+    }
+    #stext{
   
+      width: 100%;
+  }
+  #splashwrite{
+    width: 33.33vw;
     background: rgba(64, 58, 58, 0.08);
 }
   }
