@@ -219,7 +219,180 @@ line-height: 107.2%;
   background-position: center;
 }
 
+.footersect{
+  position: relative;
+  width: 100%;
+  height: 278px;
+  left: 0px;
   
+}
+#contact{
+  position: relative;
+  width: 45%;
+  height: 278px;
+  float: left;
+  top: 0px;
+
+  background: #000000;
+}
+#socialcontain{
+  position: relative;
+  width: 285px;
+  height: 50px;
+  left: 323px;
+  top: 200px;
+}
+
+#footerlogo{
+  position: absolute;
+  width: 174px;
+  height: 41.16px;
+  left: 55px;
+  top: 46.2px;
+
+  font-family: 'Sansita', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #E09F3E;
+}
+.footerlinkcontain{
+  position: absolute;
+  width: 182px;
+  height: 130px;
+  left: 55px;
+  top: 111px;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  
+  color: #FFFFFF;
+}
+#footerlinks{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+#footnumandemail{
+  position: absolute;
+  width: 350px;
+  height: 170.52px;
+  left: 322px;
+  top: 47.04px;
+}
+
+#footertitle{
+  position: absolute;
+  width: 177px;
+  height: 40.32px;
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 50px;
+
+  color: #FFFFFF;
+}
+#footphone{
+  position: relative;
+  width: 30px;
+  height: 22px;
+  
+  top: 73px;
+
+  background: url(../images/icons/icons8-phone-50.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#footemail{
+  position: relative;
+  width: 30px;
+  height: 22px;
+  
+  top: 87.6px;
+
+  background: url(../images/icons/icons8-mail-50.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#phonenumber{
+  position: absolute;
+  width: 276px;
+  height: 33.6px;
+  
+  left: 54px;
+  top: 71px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+
+}
+#emailaddress{
+  position: absolute;
+  width: 213px;
+  height: 40.32px;
+  left: 54px;
+  top: 107px;
+
+  font-family:'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  
+
+  color: #FFFFFF;
+}
+#instagram{
+  position: relative;
+  width: 40px;
+  height: 38px;
+  display: inline-block;
+  
+
+  background: url(../images/icons/icons8-instagram-50.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#facebook{
+  position: relative;
+  width: 40px;
+  height: 38px;
+  margin-left: 30px;
+  display: inline-block;
+  
+
+  background: url(../images/icons/icons8-facebook-50\ \(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#twitter{
+  position: relative;
+  width: 40px;
+  height: 38px;
+  margin-left: 30px;
+  display: inline-block;
+  
+
+  background: url(../images/icons/icons8-twitter-squared-50.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.map{
+  position: relative;
+  height: 278px;
+  
+  
+}  
   
   
   
@@ -367,6 +540,85 @@ color: #FFFFFF;
   background: url(../images/damian-ochrymowicz-6IKzGvVcICI-unsplash.jpg);
   background-size:cover;
   background-position: center;
+}
+.footersect{
+  position: relative;
+  width: 100%;
+  height:0;
+  left: 0px;
+  
+}
+#contact{
+  position: relative;
+  width: 45%;
+  height: 278px;
+  float: left;
+  top: 500px;
+
+  background: #000000;
+}
+#socialcontain{
+  position: relative;
+  width: 285px;
+  height: 50px;
+  left: 300px;
+  top: 68px;
+}
+
+
+.footerlinkcontain{
+  position: relative;
+  width: 150px;
+  height: 130px;
+  left: 55px;
+  top: 111px;
+}
+
+#footnumandemail{
+  position: absolute;
+  width: 55vw;
+  height: 278px;
+  left: 100%;
+  top: 0;
+  background: #000000;
+}
+
+#footertitle{
+  position: relative;
+  top: 50px;
+  padding-left: 17%;
+  width: 100vw;
+}
+#footphone{
+  left: 5%;
+  top: 65px;
+}
+#footemail{
+  left: 5%;
+  top: 32px;
+}
+#phonenumber{
+  position: relative;
+  
+  left: 54px;
+  top: 40px;
+  
+
+}
+#emailaddress{
+  position: relative;
+  width: 213px;
+  height: 40.32px;
+  left: 54px;
+  top: 7px;
+
+}
+
+.map{
+  position: relative;
+  width: 100vw;
+  height: 278px;
+  top: -73px;
 }
     
   }
